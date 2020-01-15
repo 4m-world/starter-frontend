@@ -71,8 +71,7 @@ module.exports = {
         prefix: 'img/favicons/'
     },
     workboxConfig: {
-        swDest: '../sw.js',
-        swDest: "../sw.js",
+        swDest: "../dist/sw.js",
         precacheManifestFilename: "js/precache-manifest.[manifestHash].js",
         importScripts: [
             //           "/dist/workbox-catch-handler.js"
