@@ -1,5 +1,7 @@
 # Starter Frontend
 
+[![Dependabot badge](https://flat.badgen.net/dependabot/4m-world/starter-frontend?icon=dependabot)](https://dependabot.com/)
+
 This is a starter github repo for a frontend project with no external pre-configured framework dependency.
 
 ## Installation
