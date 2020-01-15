@@ -10,8 +10,7 @@
   ],
   "version": "1.0.0",
   "scripts": {
-    "debug": "webpack-dev-server --config webpack/dev.js",
-    "dev": "webpack-dashboard -- webpack-dev-server webpack/dev.js",
+    "dev": "webpack-dev-server --config webpack/dev.js",
     "build": "webpack --config webpack/prod.js --progress --hide-modules",
     "lint-js": "",
     "lint-sass": ""
