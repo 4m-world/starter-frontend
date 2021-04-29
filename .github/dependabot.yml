@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: workbox-webpack-plugin
+    versions:
+    - 6.0.2
+    - 6.1.0
+    - 6.1.1
+    - 6.1.2
+  - dependency-name: favicons
+    versions:
+    - 6.2.0
+  - dependency-name: symlink-webpack-plugin
+    versions:
+    - 1.0.0
